@@ -1,0 +1,8 @@
+package("tbox")
+    set_homepage("https://github.com/Glinrens-corner/thorp_shuffle/blob/master/README.md")
+    set_description("An implementation of the thorp shuffle")
+    add_urls("https://github.com/Glinrens-corner/thorp_shuffle.git")
+    add_versions("v0.0.1", "540e4bb82943aa3d702e0418f4ad4f72a0d3642d")
+    on_install(function(package)
+            import("package.tools.xmake").install(package)
+    end)
