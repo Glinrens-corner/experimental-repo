@@ -1,4 +1,4 @@
-package("tbox")
+package("thorpshuffle")
     set_homepage("https://github.com/Glinrens-corner/thorp_shuffle/blob/master/README.md")
     set_description("An implementation of the thorp shuffle")
     add_urls("https://github.com/Glinrens-corner/thorp_shuffle.git")
